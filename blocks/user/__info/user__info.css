@@ -1,0 +1,15 @@
+.user__info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 336px;
+  /*border: 1px solid salmon;*/
+  margin-left: 30px;
+}
+@media (max-width: 700px){
+  .user__info {
+    align-items: center;
+    max-width: 282px;
+    margin-left: 0px;
+  }
+}

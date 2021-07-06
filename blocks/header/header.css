@@ -1,0 +1,19 @@
+.header {
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  max-width: 100%;
+  margin: 0 calc((100% - 880px) / 2);
+}
+@media (max-width: 900px){
+  .header {
+    margin: 0 calc((100% - 680px) / 2);
+  }
+}
+@media (max-width: 700px){
+  .header {
+    padding-top: 28px;
+    margin: 0px;
+  }
+}

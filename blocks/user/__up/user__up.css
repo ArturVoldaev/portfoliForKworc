@@ -1,0 +1,4 @@
+.user__up {
+  display: flex;
+  flex-direction: row;
+}

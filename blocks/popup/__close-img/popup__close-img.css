@@ -1,0 +1,12 @@
+.popup__close-img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.popup__close-img {
+  width: 40px;
+}
+@media (max-width: 700px){
+  .popup__close-img {
+    width: 26px;
+  }
+}

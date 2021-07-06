@@ -1,0 +1,13 @@
+.user {
+  /*border: 1px solid salmon;*/
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 700px){
+  .user {
+    flex-direction: column;
+  }
+}

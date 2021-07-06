@@ -1,0 +1,28 @@
+.form__style {
+  width: 358px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: 'inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0px 0 5px 0;
+  display: flex;
+  text-align: start;
+  padding: 0px 0px;
+  padding-bottom: 13px;
+  outline: none;
+}
+.form__style:active {
+  outline: none;
+  border: none;
+}
+.form__style:nth-child(2) {
+  margin: 13px 0 0px 0;
+}
+@media (max-width: 700px) {
+  .form__style {
+    width: 238px;
+  }
+}

@@ -1,0 +1,6 @@
+.element__like_active {
+  background-image: url(../../../../images/Union__black.svg);
+  opacity: 1;
+  outline: none;
+  z-index: 3;
+}
